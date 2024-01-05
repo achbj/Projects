@@ -1,42 +1,33 @@
-from flask import Flask, request, render_template, redirect, url_for
-import os
-from video_processor import process_video
+from flask import Flask, render_template, request, redirect, url_for
 
 app = Flask(__name__)
-app.config['UPLOAD_FOLDER'] = 'uploads/'
-app.config['PROCESSED_FOLDER'] = 'static/processed/'
-
-os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
-os.makedirs(app.config['PROCESSED_FOLDER'], exist_ok=True)
+app.config['UPLOAD_FOLDER'] = 'uploads'
+app.config['PROCESSED_FOLDER'] = 'static/processed'
 
 @app.route('/')
 def index():
     return render_template('index.html')
 
-@app.route('/upload', methods=['POST'])
-def upload_files():
-    if 'image' in request.files and 'video' in request.files:
-        image_file = request.files['image']
-        video_file = request.files['video']
-        person_name = request.form['person_name']
+@app.route('/object-detection', methods=['GET', 'POST'])
+def object_detection():
+    if request.method == 'POST':
+        # Handle video upload and processing for object detection
+        pass
+    return render_template('object_detection.html')
 
-        image_path = os.path.join(app.config['UPLOAD_FOLDER'], image_file.filename)
-        video_path = os.path.join(app.config['UPLOAD_FOLDER'], video_file.filename)
-        processed_video_filename = 'processed_' + video_file.filename
-        processed_video_path = os.path.join(app.config['PROCESSED_FOLDER'], processed_video_filename)
+@app.route('/people-detection', methods=['GET', 'POST'])
+def people_detection():
+    if request.method == 'POST':
+        # Handle video upload and processing for people detection
+        pass
+    return render_template('people_detection.html')
 
-        image_file.save(image_path)
-        video_file.save(video_path)
-
-        process_video(video_path, processed_video_path, image_path, person_name)
-        
-        return redirect(url_for('display_video', filename=processed_video_filename))
-
-    return "File not uploaded", 400
-
-@app.route('/video/<filename>')
-def display_video(filename):
-    return render_template('display_video.html', filename=filename)
+@app.route('/face-recognition', methods=['GET', 'POST'])
+def face_recognition():
+    if request.method == 'POST':
+        # Handle video upload and processing for face recognition
+        pass
+    return render_template('face_recognition.html')
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=8100)
+    app.run(debug=True)

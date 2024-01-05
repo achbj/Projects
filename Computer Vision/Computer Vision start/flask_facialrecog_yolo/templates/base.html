@@ -1,0 +1,99 @@
+<!-- templates/base.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Video Processing App</title>
+    <!-- Add any common CSS or JS here -->
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+
+      nav {
+        background-color: #333;
+        color: white;
+        padding: 10px 0;
+        text-align: center;
+      }
+
+      nav ul {
+        padding: 0;
+        list-style: none;
+      }
+
+      nav ul li {
+        display: inline;
+        margin-right: 20px;
+      }
+
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      nav ul li a:hover {
+        color: #ddd;
+      }
+
+      .content {
+        padding: 20px;
+      }
+
+      .nav-item a.active {
+        color: #4caf50;
+        /* or any color you prefer */
+        text-decoration: underline;
+      }
+
+      .processed-videos {
+        margin-top: 20px;
+      }
+
+      .video-item {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li class="nav-item">
+          <a
+            href="{{ url_for('index') }}"
+            class="{{ 'active' if request.endpoint == 'index' else '' }}"
+            >Home</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            href="{{ url_for('object_detection') }}"
+            class="{{ 'active' if request.endpoint == 'object_detection' else '' }}"
+            >Object Detection</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            href="{{ url_for('people_detection') }}"
+            class="{{ 'active' if request.endpoint == 'people_detection' else '' }}"
+            >People Detection</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            href="{{ url_for('face_recognition') }}"
+            class="{{ 'active' if request.endpoint == 'face_recognition' else '' }}"
+            >Face Recognition</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    {% block content %} {% endblock %}
+  </body>
+</html>

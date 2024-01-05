@@ -1,28 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Upload for Face Recognition</title>
-  </head>
-
-  <body>
-    <h1>Upload Image and Video for Face Recognition</h1>
-    <form action="/upload" method="post" enctype="multipart/form-data">
-      <label for="image">Upload Image:</label>
-      <input type="file" name="image" id="image" required /><br /><br />
-
-      <label for="video">Upload Video:</label>
-      <input type="file" name="video" id="video" required /><br /><br />
-
-      <label for="person_name">Person's Name:</label>
-      <input
-        type="text"
-        name="person_name"
-        id="person_name"
-        required
-      /><br /><br />
-
-      <input type="submit" value="Upload and Process" />
-    </form>
-  </body>
-</html>
+<!-- templates/index.html -->
+{% extends 'base.html' %} {% block content %}
+<h1>Welcome to the Video Processing App</h1>
+<p>Select a feature from the menu to get started.</p>
+{% endblock %}
