@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 
 import requests
-API_TOKEN = "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"
+API_TOKEN = "you-huggingface-api-access-token"
 headers = {"Authorization": f"Bearer {API_TOKEN}"}
 API_URL = "https://api-inference.huggingface.co/models/mistralai/Mixtral-8x7B-Instruct-v0.1"
 
