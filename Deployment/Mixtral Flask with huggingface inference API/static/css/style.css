@@ -1,0 +1,72 @@
+/* Add your CSS styles here */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+#app {
+  display: flex;
+  height: 100vh;
+}
+
+#sidebar {
+  background-color: #202123;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#sidebar button,
+#sidebar a {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#chat-container {
+  flex-grow: 1;
+  background-color: #343541;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#capabilities {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#capabilities > div {
+  width: 30%;
+}
+
+#capabilities h3 {
+  margin-top: 0;
+}
+
+#messages {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+#message-input {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
