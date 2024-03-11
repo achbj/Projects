@@ -18,7 +18,7 @@ def index():
 def send_message():
     user_message = request.form['message']
     headers = {
-        "Authorization": f"Bearer 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"
+        "Authorization": f"Bearer {API_TOKEN}"
     }
     payload = {
         "inputs": '[INST]' + user_message + '[/INST]',
