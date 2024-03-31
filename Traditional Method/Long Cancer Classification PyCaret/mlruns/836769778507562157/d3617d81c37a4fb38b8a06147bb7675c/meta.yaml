@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/Long%20Cancer%20Classification%20PyCaret/mlruns/836769778507562157/d3617d81c37a4fb38b8a06147bb7675c/artifacts
+end_time: 1711805103706
+entry_point_name: ''
+experiment_id: '836769778507562157'
+lifecycle_stage: active
+run_id: d3617d81c37a4fb38b8a06147bb7675c
+run_name: Ada Boost Classifier
+run_uuid: d3617d81c37a4fb38b8a06147bb7675c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711805103524
+status: 3
+tags: []
+user_id: bjachary

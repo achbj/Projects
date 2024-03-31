@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/Long%20Cancer%20Classification%20PyCaret/mlruns/316737533893635846/e8330072b4944169951c5d953253a899/artifacts
+end_time: 1711804420572
+entry_point_name: ''
+experiment_id: '316737533893635846'
+lifecycle_stage: active
+run_id: e8330072b4944169951c5d953253a899
+run_name: SVM - Linear Kernel
+run_uuid: e8330072b4944169951c5d953253a899
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711804420543
+status: 3
+tags: []
+user_id: bjachary

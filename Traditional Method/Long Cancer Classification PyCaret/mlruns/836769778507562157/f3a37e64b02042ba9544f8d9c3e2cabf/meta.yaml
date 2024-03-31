@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/Long%20Cancer%20Classification%20PyCaret/mlruns/836769778507562157/f3a37e64b02042ba9544f8d9c3e2cabf/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '836769778507562157'
+lifecycle_stage: active
+run_id: f3a37e64b02042ba9544f8d9c3e2cabf
+run_name: Session Initialized 05ae
+run_uuid: f3a37e64b02042ba9544f8d9c3e2cabf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711803399723
+status: 1
+tags: []
+user_id: bjachary

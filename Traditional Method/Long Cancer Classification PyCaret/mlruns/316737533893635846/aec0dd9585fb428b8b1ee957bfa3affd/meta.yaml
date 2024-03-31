@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/Long%20Cancer%20Classification%20PyCaret/mlruns/316737533893635846/aec0dd9585fb428b8b1ee957bfa3affd/artifacts
+end_time: 1711796301492
+entry_point_name: ''
+experiment_id: '316737533893635846'
+lifecycle_stage: active
+run_id: aec0dd9585fb428b8b1ee957bfa3affd
+run_name: K Neighbors Classifier
+run_uuid: aec0dd9585fb428b8b1ee957bfa3affd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711796301464
+status: 3
+tags: []
+user_id: bjachary

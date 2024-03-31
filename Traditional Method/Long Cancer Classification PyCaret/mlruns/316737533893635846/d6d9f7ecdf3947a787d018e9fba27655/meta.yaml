@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/Long%20Cancer%20Classification%20PyCaret/mlruns/316737533893635846/d6d9f7ecdf3947a787d018e9fba27655/artifacts
+end_time: 1711796163829
+entry_point_name: ''
+experiment_id: '316737533893635846'
+lifecycle_stage: active
+run_id: d6d9f7ecdf3947a787d018e9fba27655
+run_name: Naive Bayes
+run_uuid: d6d9f7ecdf3947a787d018e9fba27655
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711796163803
+status: 3
+tags: []
+user_id: bjachary

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/Long%20Cancer%20Classification%20PyCaret/mlruns/316737533893635846/8ee12d0e6cf5442491d45256d26d3f86/artifacts
+end_time: 1711796301016
+entry_point_name: ''
+experiment_id: '316737533893635846'
+lifecycle_stage: active
+run_id: 8ee12d0e6cf5442491d45256d26d3f86
+run_name: Random Forest Classifier
+run_uuid: 8ee12d0e6cf5442491d45256d26d3f86
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711796300986
+status: 3
+tags: []
+user_id: bjachary

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/Long%20Cancer%20Classification%20PyCaret/mlruns/316737533893635846/3f6228d5398d478bb1d5de72feb484b4/artifacts
+end_time: 1711804685436
+entry_point_name: ''
+experiment_id: '316737533893635846'
+lifecycle_stage: active
+run_id: 3f6228d5398d478bb1d5de72feb484b4
+run_name: Linear Discriminant Analysis
+run_uuid: 3f6228d5398d478bb1d5de72feb484b4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711804685407
+status: 3
+tags: []
+user_id: bjachary

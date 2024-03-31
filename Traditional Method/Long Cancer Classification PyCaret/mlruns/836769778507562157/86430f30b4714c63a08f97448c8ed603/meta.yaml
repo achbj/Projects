@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/Long%20Cancer%20Classification%20PyCaret/mlruns/836769778507562157/86430f30b4714c63a08f97448c8ed603/artifacts
+end_time: 1711803596809
+entry_point_name: ''
+experiment_id: '836769778507562157'
+lifecycle_stage: active
+run_id: 86430f30b4714c63a08f97448c8ed603
+run_name: Logistic Regression
+run_uuid: 86430f30b4714c63a08f97448c8ed603
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711803596660
+status: 3
+tags: []
+user_id: bjachary

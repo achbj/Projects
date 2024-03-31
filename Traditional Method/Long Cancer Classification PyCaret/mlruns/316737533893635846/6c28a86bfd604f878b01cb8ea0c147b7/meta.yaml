@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/Long%20Cancer%20Classification%20PyCaret/mlruns/316737533893635846/6c28a86bfd604f878b01cb8ea0c147b7/artifacts
+end_time: 1711804686360
+entry_point_name: ''
+experiment_id: '316737533893635846'
+lifecycle_stage: active
+run_id: 6c28a86bfd604f878b01cb8ea0c147b7
+run_name: Dummy Classifier
+run_uuid: 6c28a86bfd604f878b01cb8ea0c147b7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711804686331
+status: 3
+tags: []
+user_id: bjachary

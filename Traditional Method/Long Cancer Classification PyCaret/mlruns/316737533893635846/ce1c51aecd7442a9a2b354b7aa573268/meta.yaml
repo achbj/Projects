@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/Long%20Cancer%20Classification%20PyCaret/mlruns/316737533893635846/ce1c51aecd7442a9a2b354b7aa573268/artifacts
+end_time: 1711804685236
+entry_point_name: ''
+experiment_id: '316737533893635846'
+lifecycle_stage: active
+run_id: ce1c51aecd7442a9a2b354b7aa573268
+run_name: Ridge Classifier
+run_uuid: ce1c51aecd7442a9a2b354b7aa573268
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711804684919
+status: 3
+tags: []
+user_id: bjachary

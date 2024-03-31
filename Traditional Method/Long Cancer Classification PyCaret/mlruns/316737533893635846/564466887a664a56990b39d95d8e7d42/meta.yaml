@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/Long%20Cancer%20Classification%20PyCaret/mlruns/316737533893635846/564466887a664a56990b39d95d8e7d42/artifacts
+end_time: 1711796163632
+entry_point_name: ''
+experiment_id: '316737533893635846'
+lifecycle_stage: active
+run_id: 564466887a664a56990b39d95d8e7d42
+run_name: Gradient Boosting Classifier
+run_uuid: 564466887a664a56990b39d95d8e7d42
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711796163603
+status: 3
+tags: []
+user_id: bjachary

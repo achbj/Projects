@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1711811114613
+current_stage: None
+description: ''
+last_updated_timestamp: 1711811114613
+name: Lung Cancer LR - PyCaret
+run_id: 5499c41b2f3a44a6b8c15e85ed714876
+run_link: ''
+source: file:///Users/achbj/MLProjects/Traditional%20Method/Long%20Cancer%20Classification%20PyCaret/mlruns/836769778507562157/5499c41b2f3a44a6b8c15e85ed714876/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///Users/achbj/MLProjects/Traditional%20Method/Long%20Cancer%20Classification%20PyCaret/mlruns/836769778507562157/5499c41b2f3a44a6b8c15e85ed714876/artifacts/model
+user_id: null
+version: 1
