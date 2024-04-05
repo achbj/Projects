@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/PyCaret%20-%20HealthCare/mlruns/811589457948050008/97bd2de28ac649218a9ffee20b1f7c66/artifacts
+end_time: 1711955091281
+entry_point_name: ''
+experiment_id: '811589457948050008'
+lifecycle_stage: active
+run_id: 97bd2de28ac649218a9ffee20b1f7c66
+run_name: Ada Boost Classifier
+run_uuid: 97bd2de28ac649218a9ffee20b1f7c66
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711955091252
+status: 3
+tags: []
+user_id: bjachary

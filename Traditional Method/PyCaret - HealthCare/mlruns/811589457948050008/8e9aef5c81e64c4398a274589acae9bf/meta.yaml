@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/PyCaret%20-%20HealthCare/mlruns/811589457948050008/8e9aef5c81e64c4398a274589acae9bf/artifacts
+end_time: 1711955407130
+entry_point_name: ''
+experiment_id: '811589457948050008'
+lifecycle_stage: active
+run_id: 8e9aef5c81e64c4398a274589acae9bf
+run_name: Naive Bayes
+run_uuid: 8e9aef5c81e64c4398a274589acae9bf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711955406703
+status: 3
+tags: []
+user_id: bjachary

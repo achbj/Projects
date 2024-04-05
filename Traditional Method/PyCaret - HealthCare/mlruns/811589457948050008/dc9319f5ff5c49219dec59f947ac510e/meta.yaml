@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/PyCaret%20-%20HealthCare/mlruns/811589457948050008/dc9319f5ff5c49219dec59f947ac510e/artifacts
+end_time: 1711954713719
+entry_point_name: ''
+experiment_id: '811589457948050008'
+lifecycle_stage: active
+run_id: dc9319f5ff5c49219dec59f947ac510e
+run_name: Session Initialized b3c6
+run_uuid: dc9319f5ff5c49219dec59f947ac510e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711953924615
+status: 3
+tags: []
+user_id: bjachary

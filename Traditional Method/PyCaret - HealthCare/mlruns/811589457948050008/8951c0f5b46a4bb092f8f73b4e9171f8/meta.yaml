@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/PyCaret%20-%20HealthCare/mlruns/811589457948050008/8951c0f5b46a4bb092f8f73b4e9171f8/artifacts
+end_time: 1711960741831
+entry_point_name: ''
+experiment_id: '811589457948050008'
+lifecycle_stage: active
+run_id: 8951c0f5b46a4bb092f8f73b4e9171f8
+run_name: Dummy Classifier
+run_uuid: 8951c0f5b46a4bb092f8f73b4e9171f8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711960741801
+status: 3
+tags: []
+user_id: bjachary

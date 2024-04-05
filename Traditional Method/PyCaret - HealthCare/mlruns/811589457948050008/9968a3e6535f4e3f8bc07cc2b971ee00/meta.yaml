@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/PyCaret%20-%20HealthCare/mlruns/811589457948050008/9968a3e6535f4e3f8bc07cc2b971ee00/artifacts
+end_time: 1711955330772
+entry_point_name: ''
+experiment_id: '811589457948050008'
+lifecycle_stage: active
+run_id: 9968a3e6535f4e3f8bc07cc2b971ee00
+run_name: CatBoost Classifier
+run_uuid: 9968a3e6535f4e3f8bc07cc2b971ee00
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711955330742
+status: 3
+tags: []
+user_id: bjachary

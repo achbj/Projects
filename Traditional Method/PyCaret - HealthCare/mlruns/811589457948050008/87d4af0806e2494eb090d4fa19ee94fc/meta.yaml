@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/PyCaret%20-%20HealthCare/mlruns/811589457948050008/87d4af0806e2494eb090d4fa19ee94fc/artifacts
+end_time: 1711960795856
+entry_point_name: ''
+experiment_id: '811589457948050008'
+lifecycle_stage: active
+run_id: 87d4af0806e2494eb090d4fa19ee94fc
+run_name: Quadratic Discriminant Analysis
+run_uuid: 87d4af0806e2494eb090d4fa19ee94fc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711960795825
+status: 3
+tags: []
+user_id: bjachary

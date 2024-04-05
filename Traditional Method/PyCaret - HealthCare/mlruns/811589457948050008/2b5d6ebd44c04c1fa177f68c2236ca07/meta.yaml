@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/PyCaret%20-%20HealthCare/mlruns/811589457948050008/2b5d6ebd44c04c1fa177f68c2236ca07/artifacts
+end_time: 1711955408243
+entry_point_name: ''
+experiment_id: '811589457948050008'
+lifecycle_stage: active
+run_id: 2b5d6ebd44c04c1fa177f68c2236ca07
+run_name: Linear Discriminant Analysis
+run_uuid: 2b5d6ebd44c04c1fa177f68c2236ca07
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711955408214
+status: 3
+tags: []
+user_id: bjachary

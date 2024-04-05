@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/PyCaret%20-%20HealthCare/mlruns/811589457948050008/557b2e8602f7440bb70e72e2deafb91b/artifacts
+end_time: 1711960798305
+entry_point_name: ''
+experiment_id: '811589457948050008'
+lifecycle_stage: active
+run_id: 557b2e8602f7440bb70e72e2deafb91b
+run_name: Decision Tree Classifier
+run_uuid: 557b2e8602f7440bb70e72e2deafb91b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711960798115
+status: 3
+tags: []
+user_id: bjachary

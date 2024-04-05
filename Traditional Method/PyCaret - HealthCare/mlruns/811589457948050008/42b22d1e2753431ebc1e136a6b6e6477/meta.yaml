@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/PyCaret%20-%20HealthCare/mlruns/811589457948050008/42b22d1e2753431ebc1e136a6b6e6477/artifacts
+end_time: 1711960857055
+entry_point_name: ''
+experiment_id: '811589457948050008'
+lifecycle_stage: active
+run_id: 42b22d1e2753431ebc1e136a6b6e6477
+run_name: SVM - Linear Kernel
+run_uuid: 42b22d1e2753431ebc1e136a6b6e6477
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711960857020
+status: 3
+tags: []
+user_id: bjachary

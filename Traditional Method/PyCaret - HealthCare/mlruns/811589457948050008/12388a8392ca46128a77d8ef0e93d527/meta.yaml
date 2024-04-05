@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/PyCaret%20-%20HealthCare/mlruns/811589457948050008/12388a8392ca46128a77d8ef0e93d527/artifacts
+end_time: 1711960856211
+entry_point_name: ''
+experiment_id: '811589457948050008'
+lifecycle_stage: active
+run_id: 12388a8392ca46128a77d8ef0e93d527
+run_name: Ridge Classifier
+run_uuid: 12388a8392ca46128a77d8ef0e93d527
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711960856149
+status: 3
+tags: []
+user_id: bjachary

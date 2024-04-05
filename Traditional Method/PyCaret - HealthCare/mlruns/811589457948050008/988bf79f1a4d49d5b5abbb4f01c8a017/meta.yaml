@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/PyCaret%20-%20HealthCare/mlruns/811589457948050008/988bf79f1a4d49d5b5abbb4f01c8a017/artifacts
+end_time: 1711955407313
+entry_point_name: ''
+experiment_id: '811589457948050008'
+lifecycle_stage: active
+run_id: 988bf79f1a4d49d5b5abbb4f01c8a017
+run_name: K Neighbors Classifier
+run_uuid: 988bf79f1a4d49d5b5abbb4f01c8a017
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711955407285
+status: 3
+tags: []
+user_id: bjachary

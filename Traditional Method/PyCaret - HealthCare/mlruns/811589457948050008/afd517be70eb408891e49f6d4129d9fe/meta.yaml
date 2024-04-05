@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/PyCaret%20-%20HealthCare/mlruns/811589457948050008/afd517be70eb408891e49f6d4129d9fe/artifacts
+end_time: 1711960742052
+entry_point_name: ''
+experiment_id: '811589457948050008'
+lifecycle_stage: active
+run_id: afd517be70eb408891e49f6d4129d9fe
+run_name: Logistic Regression
+run_uuid: afd517be70eb408891e49f6d4129d9fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711960742019
+status: 3
+tags: []
+user_id: bjachary

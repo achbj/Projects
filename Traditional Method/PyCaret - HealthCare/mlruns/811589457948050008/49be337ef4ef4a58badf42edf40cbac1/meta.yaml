@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/PyCaret%20-%20HealthCare/mlruns/811589457948050008/49be337ef4ef4a58badf42edf40cbac1/artifacts
+end_time: 1711960856823
+entry_point_name: ''
+experiment_id: '811589457948050008'
+lifecycle_stage: active
+run_id: 49be337ef4ef4a58badf42edf40cbac1
+run_name: Gradient Boosting Classifier
+run_uuid: 49be337ef4ef4a58badf42edf40cbac1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711960856786
+status: 3
+tags: []
+user_id: bjachary

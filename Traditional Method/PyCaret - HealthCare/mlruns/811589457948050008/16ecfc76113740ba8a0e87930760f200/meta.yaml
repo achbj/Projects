@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/PyCaret%20-%20HealthCare/mlruns/811589457948050008/16ecfc76113740ba8a0e87930760f200/artifacts
+end_time: 1711960857170
+entry_point_name: ''
+experiment_id: '811589457948050008'
+lifecycle_stage: active
+run_id: 16ecfc76113740ba8a0e87930760f200
+run_name: Random Forest Classifier
+run_uuid: 16ecfc76113740ba8a0e87930760f200
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711960857135
+status: 3
+tags: []
+user_id: bjachary

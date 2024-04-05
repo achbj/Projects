@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/PyCaret%20-%20HealthCare/mlruns/811589457948050008/58c1b99777e445d0b85e4b61b30286cd/artifacts
+end_time: 1711960742285
+entry_point_name: ''
+experiment_id: '811589457948050008'
+lifecycle_stage: active
+run_id: 58c1b99777e445d0b85e4b61b30286cd
+run_name: Extreme Gradient Boosting
+run_uuid: 58c1b99777e445d0b85e4b61b30286cd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711960742247
+status: 3
+tags: []
+user_id: bjachary

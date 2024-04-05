@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/PyCaret%20-%20HealthCare/mlruns/811589457948050008/ea7ace3ff0b54150ac0279973e250eda/artifacts
+end_time: 1711955092056
+entry_point_name: ''
+experiment_id: '811589457948050008'
+lifecycle_stage: active
+run_id: ea7ace3ff0b54150ac0279973e250eda
+run_name: Extra Trees Classifier
+run_uuid: ea7ace3ff0b54150ac0279973e250eda
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711955092024
+status: 3
+tags: []
+user_id: bjachary
