@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/Heart%20Disease%20Detection%20LogisticRegression/mlruns/227148494628441278/cd3259ab24344d5c97f60f85b829b62b/artifacts
+end_time: 1712571197000
+entry_point_name: ''
+experiment_id: '227148494628441278'
+lifecycle_stage: active
+run_id: cd3259ab24344d5c97f60f85b829b62b
+run_name: Logistic Regression
+run_uuid: cd3259ab24344d5c97f60f85b829b62b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712571196868
+status: 3
+tags: []
+user_id: bjachary

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/Heart%20Disease%20Detection%20LogisticRegression/mlruns/227148494628441278/6e088775f42f49c9b4c45c907f4bf2cb/artifacts
+end_time: 1712571084472
+entry_point_name: ''
+experiment_id: '227148494628441278'
+lifecycle_stage: active
+run_id: 6e088775f42f49c9b4c45c907f4bf2cb
+run_name: K Neighbors Classifier
+run_uuid: 6e088775f42f49c9b4c45c907f4bf2cb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712571084443
+status: 3
+tags: []
+user_id: bjachary

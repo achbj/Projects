@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/Heart%20Disease%20Detection%20LogisticRegression/mlruns/227148494628441278/cf8e40554d1b4d4b9190e4b56135ffff/artifacts
+end_time: 1712546908509
+entry_point_name: ''
+experiment_id: '227148494628441278'
+lifecycle_stage: active
+run_id: cf8e40554d1b4d4b9190e4b56135ffff
+run_name: Naive Bayes
+run_uuid: cf8e40554d1b4d4b9190e4b56135ffff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712546908471
+status: 3
+tags: []
+user_id: bjachary

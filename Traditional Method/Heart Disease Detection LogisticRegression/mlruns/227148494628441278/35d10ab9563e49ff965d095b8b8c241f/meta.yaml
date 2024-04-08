@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/Heart%20Disease%20Detection%20LogisticRegression/mlruns/227148494628441278/35d10ab9563e49ff965d095b8b8c241f/artifacts
+end_time: 1712546907492
+entry_point_name: ''
+experiment_id: '227148494628441278'
+lifecycle_stage: active
+run_id: 35d10ab9563e49ff965d095b8b8c241f
+run_name: Random Forest Classifier
+run_uuid: 35d10ab9563e49ff965d095b8b8c241f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712546907459
+status: 3
+tags: []
+user_id: bjachary

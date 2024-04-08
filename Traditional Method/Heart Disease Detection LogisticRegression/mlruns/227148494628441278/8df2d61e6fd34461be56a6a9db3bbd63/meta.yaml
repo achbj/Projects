@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/Heart%20Disease%20Detection%20LogisticRegression/mlruns/227148494628441278/8df2d61e6fd34461be56a6a9db3bbd63/artifacts
+end_time: 1712296825371
+entry_point_name: ''
+experiment_id: '227148494628441278'
+lifecycle_stage: active
+run_id: 8df2d61e6fd34461be56a6a9db3bbd63
+run_name: Quadratic Discriminant Analysis
+run_uuid: 8df2d61e6fd34461be56a6a9db3bbd63
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712296825343
+status: 3
+tags: []
+user_id: bjachary

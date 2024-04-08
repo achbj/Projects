@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/Heart%20Disease%20Detection%20LogisticRegression/mlruns/227148494628441278/85aaba996c29450597529818c298cc13/artifacts
+end_time: 1712325795228
+entry_point_name: ''
+experiment_id: '227148494628441278'
+lifecycle_stage: active
+run_id: 85aaba996c29450597529818c298cc13
+run_name: CatBoost Classifier
+run_uuid: 85aaba996c29450597529818c298cc13
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712325795195
+status: 3
+tags: []
+user_id: bjachary

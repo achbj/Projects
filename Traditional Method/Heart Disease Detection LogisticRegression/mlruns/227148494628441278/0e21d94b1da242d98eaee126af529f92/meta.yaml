@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/Heart%20Disease%20Detection%20LogisticRegression/mlruns/227148494628441278/0e21d94b1da242d98eaee126af529f92/artifacts
+end_time: 1712571186056
+entry_point_name: ''
+experiment_id: '227148494628441278'
+lifecycle_stage: active
+run_id: 0e21d94b1da242d98eaee126af529f92
+run_name: Decision Tree Classifier
+run_uuid: 0e21d94b1da242d98eaee126af529f92
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712571186025
+status: 3
+tags: []
+user_id: bjachary

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/achbj/MLProjects/Traditional%20Method/Heart%20Disease%20Detection%20LogisticRegression/mlruns/227148494628441278/52450e49959f4f79b28d5f5d12f6eddd/artifacts
+end_time: 1712571083451
+entry_point_name: ''
+experiment_id: '227148494628441278'
+lifecycle_stage: active
+run_id: 52450e49959f4f79b28d5f5d12f6eddd
+run_name: Extreme Gradient Boosting
+run_uuid: 52450e49959f4f79b28d5f5d12f6eddd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712571083415
+status: 3
+tags: []
+user_id: bjachary
