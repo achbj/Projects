@@ -7513,3 +7513,221 @@ Please also refer to the documentation for alternative solver options:
                    random_state=2642, solver='lbfgs', tol=0.0001, verbose=0,
                    warm_start=False)
 2024-04-17 13:31:25,464:INFO:tune_model() successfully completed......................................
+2024-04-18 08:58:53,252:INFO:Initializing finalize_model()
+2024-04-18 08:58:53,253:INFO:finalize_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x155c21cf0>, estimator=<function tune_model at 0x1554f8d30>, fit_kwargs=None, groups=None, model_only=False, experiment_custom_tags=None)
+2024-04-18 08:58:53,254:INFO:Finalizing <function tune_model at 0x1554f8d30>
+2024-04-18 08:58:53,266:INFO:Initializing create_model()
+2024-04-18 08:58:53,267:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x155c21cf0>, estimator=<function tune_model at 0x1554f8d30>, fold=None, round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=False, metrics=None, display=None, model_only=False, return_train_score=False, kwargs={})
+2024-04-18 08:58:53,267:INFO:Checking exceptions
+2024-04-18 08:59:12,949:INFO:Initializing finalize_model()
+2024-04-18 08:59:12,951:INFO:finalize_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x155c21cf0>, estimator=LogisticRegression(C=0.769, class_weight='balanced', dual=False,
+                   fit_intercept=True, intercept_scaling=1, l1_ratio=None,
+                   max_iter=1000, multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2642, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fit_kwargs=None, groups=None, model_only=False, experiment_custom_tags=None)
+2024-04-18 08:59:12,953:INFO:Finalizing LogisticRegression(C=0.769, class_weight='balanced', dual=False,
+                   fit_intercept=True, intercept_scaling=1, l1_ratio=None,
+                   max_iter=1000, multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2642, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2024-04-18 08:59:12,960:INFO:Initializing create_model()
+2024-04-18 08:59:12,960:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x155c21cf0>, estimator=LogisticRegression(C=0.769, class_weight='balanced', dual=False,
+                   fit_intercept=True, intercept_scaling=1, l1_ratio=None,
+                   max_iter=1000, multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2642, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=None, round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=False, metrics=None, display=None, model_only=False, return_train_score=False, kwargs={})
+2024-04-18 08:59:12,960:INFO:Checking exceptions
+2024-04-18 08:59:12,967:INFO:Importing libraries
+2024-04-18 08:59:12,967:INFO:Copying training dataset
+2024-04-18 08:59:12,968:INFO:Defining folds
+2024-04-18 08:59:12,968:INFO:Declaring metric variables
+2024-04-18 08:59:12,968:INFO:Importing untrained model
+2024-04-18 08:59:12,969:INFO:Declaring custom model
+2024-04-18 08:59:12,970:INFO:Logistic Regression Imported successfully
+2024-04-18 08:59:12,971:INFO:Cross validation set to False
+2024-04-18 08:59:12,971:INFO:Fitting Model
+2024-04-18 08:59:13,079:WARNING:/Users/achbj/opt/miniconda3/envs/nn/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2024-04-18 08:59:13,085:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['radius_mean', 'texture_mean',
+                                             'perimeter_mean', 'area_mean',
+                                             'smoothness_mean',
+                                             'compactness_mean',
+                                             'concavity_mean',
+                                             'concave points_mean',
+                                             'symmet...
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+'))),
+                ('actual_estimator',
+                 LogisticRegression(C=0.769, class_weight='balanced',
+                                    dual=False, fit_intercept=True,
+                                    intercept_scaling=1, l1_ratio=None,
+                                    max_iter=1000, multi_class='auto',
+                                    n_jobs=None, penalty='l2',
+                                    random_state=2642, solver='lbfgs',
+                                    tol=0.0001, verbose=0, warm_start=False))],
+         verbose=False)
+2024-04-18 08:59:13,085:INFO:create_model() successfully completed......................................
+2024-04-18 08:59:13,228:INFO:_master_model_container: 18
+2024-04-18 08:59:13,228:INFO:_display_container: 4
+2024-04-18 08:59:13,230:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['radius_mean', 'texture_mean',
+                                             'perimeter_mean', 'area_mean',
+                                             'smoothness_mean',
+                                             'compactness_mean',
+                                             'concavity_mean',
+                                             'concave points_mean',
+                                             'symmet...
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+'))),
+                ('actual_estimator',
+                 LogisticRegression(C=0.769, class_weight='balanced',
+                                    dual=False, fit_intercept=True,
+                                    intercept_scaling=1, l1_ratio=None,
+                                    max_iter=1000, multi_class='auto',
+                                    n_jobs=None, penalty='l2',
+                                    random_state=2642, solver='lbfgs',
+                                    tol=0.0001, verbose=0, warm_start=False))],
+         verbose=False)
+2024-04-18 08:59:13,230:INFO:finalize_model() successfully completed......................................
+2024-04-18 09:03:26,346:INFO:Initializing finalize_model()
+2024-04-18 09:03:26,347:INFO:finalize_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x155c21cf0>, estimator=LogisticRegression(C=0.769, class_weight='balanced', dual=False,
+                   fit_intercept=True, intercept_scaling=1, l1_ratio=None,
+                   max_iter=1000, multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2642, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fit_kwargs=None, groups=None, model_only=False, experiment_custom_tags=None)
+2024-04-18 09:03:26,348:INFO:Finalizing LogisticRegression(C=0.769, class_weight='balanced', dual=False,
+                   fit_intercept=True, intercept_scaling=1, l1_ratio=None,
+                   max_iter=1000, multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2642, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2024-04-18 09:03:26,353:INFO:Initializing create_model()
+2024-04-18 09:03:26,353:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x155c21cf0>, estimator=LogisticRegression(C=0.769, class_weight='balanced', dual=False,
+                   fit_intercept=True, intercept_scaling=1, l1_ratio=None,
+                   max_iter=1000, multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=2642, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=None, round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=False, metrics=None, display=None, model_only=False, return_train_score=False, kwargs={})
+2024-04-18 09:03:26,353:INFO:Checking exceptions
+2024-04-18 09:03:26,355:INFO:Importing libraries
+2024-04-18 09:03:26,355:INFO:Copying training dataset
+2024-04-18 09:03:26,356:INFO:Defining folds
+2024-04-18 09:03:26,356:INFO:Declaring metric variables
+2024-04-18 09:03:26,356:INFO:Importing untrained model
+2024-04-18 09:03:26,356:INFO:Declaring custom model
+2024-04-18 09:03:26,357:INFO:Logistic Regression Imported successfully
+2024-04-18 09:03:26,358:INFO:Cross validation set to False
+2024-04-18 09:03:26,358:INFO:Fitting Model
+2024-04-18 09:03:26,470:WARNING:/Users/achbj/opt/miniconda3/envs/nn/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py:458: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+2024-04-18 09:03:26,479:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['radius_mean', 'texture_mean',
+                                             'perimeter_mean', 'area_mean',
+                                             'smoothness_mean',
+                                             'compactness_mean',
+                                             'concavity_mean',
+                                             'concave points_mean',
+                                             'symmet...
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+'))),
+                ('actual_estimator',
+                 LogisticRegression(C=0.769, class_weight='balanced',
+                                    dual=False, fit_intercept=True,
+                                    intercept_scaling=1, l1_ratio=None,
+                                    max_iter=1000, multi_class='auto',
+                                    n_jobs=None, penalty='l2',
+                                    random_state=2642, solver='lbfgs',
+                                    tol=0.0001, verbose=0, warm_start=False))],
+         verbose=False)
+2024-04-18 09:03:26,479:INFO:create_model() successfully completed......................................
+2024-04-18 09:03:26,643:INFO:_master_model_container: 18
+2024-04-18 09:03:26,644:INFO:_display_container: 4
+2024-04-18 09:03:26,647:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['radius_mean', 'texture_mean',
+                                             'perimeter_mean', 'area_mean',
+                                             'smoothness_mean',
+                                             'compactness_mean',
+                                             'concavity_mean',
+                                             'concave points_mean',
+                                             'symmet...
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+'))),
+                ('actual_estimator',
+                 LogisticRegression(C=0.769, class_weight='balanced',
+                                    dual=False, fit_intercept=True,
+                                    intercept_scaling=1, l1_ratio=None,
+                                    max_iter=1000, multi_class='auto',
+                                    n_jobs=None, penalty='l2',
+                                    random_state=2642, solver='lbfgs',
+                                    tol=0.0001, verbose=0, warm_start=False))],
+         verbose=False)
+2024-04-18 09:03:26,647:INFO:finalize_model() successfully completed......................................
+2024-04-18 09:03:32,971:INFO:Initializing predict_model()
+2024-04-18 09:03:32,971:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x155c21cf0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['radius_mean', 'texture_mean',
+                                             'perimeter_mean', 'area_mean',
+                                             'smoothness_mean',
+                                             'compactness_mean',
+                                             'concavity_mean',
+                                             'concave points_mean',
+                                             'symmet...
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+'))),
+                ('actual_estimator',
+                 LogisticRegression(C=0.769, class_weight='balanced',
+                                    dual=False, fit_intercept=True,
+                                    intercept_scaling=1, l1_ratio=None,
+                                    max_iter=1000, multi_class='auto',
+                                    n_jobs=None, penalty='l2',
+                                    random_state=2642, solver='lbfgs',
+                                    tol=0.0001, verbose=0, warm_start=False))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x15d9ebd90>)
+2024-04-18 09:03:32,971:INFO:Checking exceptions
+2024-04-18 09:03:32,971:INFO:Preloading libraries
+2024-04-18 09:03:33,011:WARNING:/Users/achbj/opt/miniconda3/envs/nn/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1396: UserWarning: Note that pos_label (set to 'M') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2024-04-18 09:03:33,013:WARNING:/Users/achbj/opt/miniconda3/envs/nn/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1396: UserWarning: Note that pos_label (set to 'M') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2024-04-18 09:03:33,014:WARNING:/Users/achbj/opt/miniconda3/envs/nn/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1396: UserWarning: Note that pos_label (set to 'M') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
