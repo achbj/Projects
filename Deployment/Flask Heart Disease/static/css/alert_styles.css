@@ -1,0 +1,45 @@
+/* Alert Box */
+
+.alert-container {
+  position: fixed;
+  top: 70px;
+  /* Adjust as needed */
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  /* Center horizontally */
+  align-items: flex-start;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+/* Success Alert Box */
+
+.alert.alert-success {
+  background-color: #4caf50 !important;
+  /* Green */
+}
+
+/* Close Button */
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}

@@ -1,0 +1,119 @@
+{% extends 'layout.html' %} {% block head %} {{ super() }}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/hdd_styles.css') }}" /> {% endblock %} {% block content %}
+<div class="hdd_container">
+    <div class="hdd_form">
+        <h2>Enter Patient Details</h2>
+        <form method="post">
+            <label for="age">Age:</label>
+            <input type="text" id="age" name="age" required/>
+            <br />
+
+            <label for="sex">Sex:</label>
+            <select id="sex" name="sex" required>
+        <option value="1">Male</option>
+        <option value="0">Female</option>
+      </select>
+
+            <br />
+            <label for="cp">Chest Pain Type:</label>
+            <select id="cp" name="cp" required>
+        <option value="0">Typical angina</option>
+        <option value="1">Atypical angina</option>
+        <option value="2">Non-anginal pain</option>
+        <option value="3">Asymptomatic</option></select
+      ><br />
+
+      <label for="trestbps">trestbps:</label>
+      <input type="text" id="trestbps" name="trestbps" required/>
+      <br />
+      <label for="chol">chol:</label>
+      <input type="text" id="chol" name="chol" required/>
+      <br />
+      <label for="fbs">fbs:</label>
+      <select id="fbs" name="fbs" required>
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+      </select>
+            <br />
+            <label for="restecg">restecg:</label>
+            <select id="restecg" name="restecg" required>
+        <option value="0">Normal</option>
+        <option value="1">Having ST-T wave abnormality</option>
+        <option value="2">
+          probable or definite left bentricular hypertrophy
+        </option>
+        <option value="3">Asymptomatic</option></select
+      ><br />
+      <label for="thalach">thalach:</label>
+      <input type="text" id="thalach" name="thalach" required/>
+      <br />
+      <label for="exang">exang</label>
+      <select id="exang" name="exang" required>
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+      </select>
+            <br />
+            <label for="oldpeak">oldpeak:</label>
+            <input type="text" id="oldpeak" name="oldpeak" required/>
+            <br />
+            <label for="slope">slope:</label>
+            <input type="text" id="slope" name="slope" required/>
+            <br />
+            <label for="ca">ca</label>
+            <select id="ca" name="ca" required>
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+            <br />
+            <label for="thal">ca</label>
+            <select id="thal" name="thal" required>
+        <option value="0">Normal</option>
+        <option value="1">Fixed defect</option>
+        <option value="2">Reversible defect</option>
+      </select>
+            <br />
+            <button type="submit">Predict</button>
+        </form>
+    </div>
+    <div class="hdd_results">
+        <h2>Heart Disease Prediction results</h2>
+        {% if prediction_label %}
+        <h3>Patients Data:</h3>
+        <div class="table-container">
+            <table>
+                <tbody>
+                    {% for key, value in patients_data.items() %}
+                    <tr>
+                        <td>{{ key }}</td>
+                        <td>{{ value }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <p><b>Prediction Label: </b>{{ prediction_label }}</p>
+        <p><b>Yes chances: </b>{{ yes_probability }} %</p>
+        <p><b>No chances: </b>{{ no_probability }} %</p>
+
+        {% if prediction_label == "Yes" %}
+        <p>
+            AI suggest that Patient <b>likely have Heart Disease</b>. The chances is
+            <b>{{ yes_probability }}%</b>, while the the chances patient don't have heart disease is <b>{{ no_probability }}%</b>. Further decision are left to doctors. Please consult with related doctors.
+        </p>
+        {% else %}
+        <p>
+            AI suggest that Patient <b>likely don't have Heart Disease</b>. The chances is for not having heart disease is <b>{{ no_probability }}%</b>, while the the chances patient have heart disease is
+            <b>{{ yes_probability }}%</b>. <br /><br />
+            <b>**</b>Further decision are left to doctors. Please consult with related doctors. <b>**</b>
+        </p>
+
+        {% endif %}
+        <a href="#" id="printPdf"><i class="bx bx-printer printer-icon"></i></a> {% endif %}
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+<script src="{{ url_for( 'static', filename='js/hdd_scripts.js') }}" "></script>
+{% endblock %}

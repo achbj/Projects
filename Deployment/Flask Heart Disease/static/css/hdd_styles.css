@@ -1,0 +1,109 @@
+/* styles.css */
+
+.hdd_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+.hdd_form {
+  width: 40%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.hdd_form h2 {
+  margin-bottom: 10px;
+}
+
+.hdd_form input,
+.hdd_form select {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.hdd_form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hdd_results {
+  width: 50%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.hdd_results h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.hdd_results p {
+  margin-bottom: 10px;
+}
+
+.table-container {
+  overflow-x: auto;
+  /* Enable horizontal scrolling */
+}
+
+.table-container table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-container table,
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Hide the printer icon when printing */
+
+@media print {
+  .printer-icon {
+    display: none;
+  }
+}
+
+/* Position the printer icon to the right side */
+
+.printer-icon {
+  float: right;
+  margin-top: -30px;
+  /* Adjust as needed */
+  margin-right: 10px;
+  /* Adjust as needed */
+}
+
+@media only screen and (max-width: 768px) {
+  .hdd_container {
+    flex-direction: column;
+    /* Stack elements vertically */
+  }
+  .hdd_form,
+  .hdd_results {
+    width: 100%;
+    /* Take full width */
+    margin-bottom: 20px;
+    /* Add some space between the sections */
+  }
+  /* Add any additional styling for smaller screens */
+}
