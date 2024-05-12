@@ -1,0 +1,2 @@
+age,sex,cp,trestbps,chol,fbs,restecg,thalach,exang,oldpeak,slope,ca,thal,output,flag,username,timestamp
+23,0,0,120,210,1,1,150,0,"1,5",2,2,2,,,,2024-05-06 13:46:13.842587

@@ -7731,3 +7731,59 @@ Please also refer to the documentation for alternative solver options:
 2024-04-18 09:03:33,014:WARNING:/Users/achbj/opt/miniconda3/envs/nn/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1396: UserWarning: Note that pos_label (set to 'M') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
   warnings.warn(
 
+2024-04-18 09:08:42,348:INFO:Initializing evaluate_model()
+2024-04-18 09:08:42,349:INFO:evaluate_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x155c21cf0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['radius_mean', 'texture_mean',
+                                             'perimeter_mean', 'area_mean',
+                                             'smoothness_mean',
+                                             'compactness_mean',
+                                             'concavity_mean',
+                                             'concave points_mean',
+                                             'symmet...
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+'))),
+                ('actual_estimator',
+                 LogisticRegression(C=0.769, class_weight='balanced',
+                                    dual=False, fit_intercept=True,
+                                    intercept_scaling=1, l1_ratio=None,
+                                    max_iter=1000, multi_class='auto',
+                                    n_jobs=None, penalty='l2',
+                                    random_state=2642, solver='lbfgs',
+                                    tol=0.0001, verbose=0, warm_start=False))],
+         verbose=False), fold=None, fit_kwargs=None, plot_kwargs=None, feature_name=None, groups=None)
+2024-04-18 09:08:42,371:INFO:Initializing plot_model()
+2024-04-18 09:08:42,371:INFO:plot_model(plot=pipeline, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), verbose=False, display=None, display_format=None, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['radius_mean', 'texture_mean',
+                                             'perimeter_mean', 'area_mean',
+                                             'smoothness_mean',
+                                             'compactness_mean',
+                                             'concavity_mean',
+                                             'concave points_mean',
+                                             'symmet...
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+'))),
+                ('actual_estimator',
+                 LogisticRegression(C=0.769, class_weight='balanced',
+                                    dual=False, fit_intercept=True,
+                                    intercept_scaling=1, l1_ratio=None,
+                                    max_iter=1000, multi_class='auto',
+                                    n_jobs=None, penalty='l2',
+                                    random_state=2642, solver='lbfgs',
+                                    tol=0.0001, verbose=0, warm_start=False))],
+         verbose=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x155c21cf0>, system=True)
+2024-04-18 09:08:42,371:INFO:Checking exceptions
+2024-04-18 09:08:42,372:INFO:Preloading libraries
+2024-04-18 09:08:42,373:INFO:Copying training dataset
+2024-04-18 09:08:42,373:INFO:Plot type: pipeline
+2024-04-18 09:08:42,463:INFO:Visual Rendered Successfully
+2024-04-18 09:08:42,621:INFO:plot_model() successfully completed......................................
