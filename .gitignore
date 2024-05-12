@@ -1,3 +1,4 @@
 data
 mlruns
 turn csv to json.ipynb
+.env
